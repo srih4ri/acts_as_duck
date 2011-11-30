@@ -3,7 +3,9 @@ module ActsAsDuck
    def quack
      'Quack...quack'
    end
-  end
+   def meow
+     'Meow...Meow' #Using complex Djkstra's algorithm here.
+   end
 end
 class Object
   def self.acts_as_duck
